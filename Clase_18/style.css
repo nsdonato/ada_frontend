@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+}
+footer {
+    background-color:  #004a99;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.contact_us {
+    width: 250px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.contact_us h4 {
+    font-weight: bold;
+}
+
+.contact_info{
+    font-size: 12px;
+}
+
+.contact_icons {
+    display: flex;
+    margin-top: 15px;
+}
+
+.contact_icons a{
+    border-radius: 50%;
+    background: #007bff;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    transition: all 1s;
+}
+
+.contact_icons a:hover{
+    background-color: #0067d5;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: #ffffff;
+}
+
+.contact_us, .contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.wayne {
+    height: 150px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.useful {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.useful ul {
+    text-align: left;
+}
+
+.pie {
+    background-color: #00428a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    width: 300px;
+    height: 250px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="email"]{
+    width: 150px;
+    height: 30px;
+}
+input[type="submit"]{
+    background-color: #007bff;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    width: 130px;
+    height: 34px;
+}
+
+.footer_principal{
+    display: flex;
+    margin: 30px 70px;
+    align-items: baseline;
+}
+
+.footer_principal > div {
+    flex-grow: 1;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+@media (max-width:600px) {
+    .footer_principal {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

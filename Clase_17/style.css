@@ -1,0 +1,91 @@
+/* EJEMPO 1:
+div { 
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+
+div:hover {
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+}*/
+
+/* EJEMPLO 2:
+div { 
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+
+div:hover {
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+} */ 
+
+
+/*EJEMPLO 3:
+div { 
+    margin: 120px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease-in;
+}
+
+div:hover {
+    transform: scale(1.5);
+} */
+
+/*EJEMPLO 4 
+
+div { 
+    margin: 120px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+}
+
+div:hover {
+    border-radius: 50px;
+    transform: rotate(360deg) scale(0.5);
+}
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #314354e0;
+    height: 250px;
+    width: 250px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 50px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 5px 6px 0px 0px rgba(112,0,112,1);
+    transition: all 0.5s;
+}
+
+.boton:hover{
+    color: #fff;
+    background-color: rgba(112,0,112,1);
+    box-shadow: -5px -6px 0px 0px rgb(255, 255, 255);
+    transform: translate(5px, 5px);
+}

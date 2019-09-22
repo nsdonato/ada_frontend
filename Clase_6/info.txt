@@ -1,0 +1,10 @@
+Comandos:
+
+cls: para limpiar toda la información de la consola.
+cd ..: para ir hacia atras en el directorio.
+cd nombreDirectorio: para entrar en una carpeta especifica.
+git --version: Para verificar si tenemos git bien instalado (vamos a ver la versión de Git, significa que esta instaldo todo correctamente)
+git init: inicializa un repositorio, significa que en esa carpeta git va a escuchar todos los cambios que se hicieron en la carpeta
+git status: verifica y te marca si hubo algún cambio en la carpeta.
+git add nombreArchivo: se "guarda" el archivo momentaneamente. si hacemos algun cambio sobre el mismo, y después hacemos git status otra vez, se va a ver en rojo (eso marca una modificación), tenemos que hacer nuevamente este comando.
+git add .: guarda todos los archivos modificados.

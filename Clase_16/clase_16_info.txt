@@ -1,0 +1,16 @@
+overflow: auto; -- viene por defecto (visible)
+          inherit; -- si lo hereda del padre
+          hidde; -- oculta lo que este revalsando del div.
+          scroll; -- te genera una barra de navegación, en mac se esconde por defecto y en windows se ve siempre (depende del Sistema Operativos)
+
+background-image: url()
+background-position:
+background-size: 
+
+si pones 
+background-image: line-gradient(
+    rgba(255,0,0,0.5),
+    rgba(0,0,255,0.5)),
+    url("http://laimagen.com") // las gradientes son una imagen de fondo.
+
+TODO: No termine de ver esta clase.

@@ -1,0 +1,15 @@
+.cuadrado {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+     background-color: blue;
+}

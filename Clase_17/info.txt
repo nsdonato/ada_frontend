@@ -1,0 +1,89 @@
+EJEMPLO 1:
+
+    transition: all 2s -- all: todos los cambios que están en esa clase, van a ser aplicados una vez que otra clase intente cambiar alguno de ellos.
+
+    transition: width 2s -- Cambia solo esa propiedad especifica, y solo cambia si luego con x ej, hover, se cambia esa misma propiedad.
+
+EJEMPLO 2:
+
+    Maneras de transicionar:
+    Por defecto viene en ease-in (comienza, acelera un poquito y frena).
+
+    transition: todo/algoEspecifico velocidad maneraDeCambiar;
+
+    https://codepen.io/malerey/pen/oRwwME
+
+    efectos: 
+    * ease-in
+    * linear
+    * ease-out
+
+-----------------------------------
+
+    https://codepen.io/malerey/pen/jowZwx
+
+    transform: me permite transformar un elemento.
+
+    transform: 
+        translateX() -- derecha/izq 
+        valor + derecha
+        valor - izquierda
+
+        translateY() -- arriba/abajo.
+        valor + arriba
+        valor - abajo
+
+        translate: (ejeX, ejeY);
+
+EJEMPLO 3:
+     https://codepen.io/malerey/pen/NVgydw
+
+    transform:
+        slace: -- voy a cambiar la escala del elemento o el tamaño, osea la manera en la que se agranda o se achica, no en si el tamaño.
+
+-----------------------------------
+
+     https://codepen.io/malerey/pen/pmwabV
+
+    transform:
+        skewX: 10deg-- podemos inclinar el eje x
+        skewY: 10deg-- podemos inclinar el eje y
+        
+        valor - se inclina en la dirección contraria.
+        + pa la otra.
+
+-----------------------------------
+
+EJEMPLO 4:
+    transform: rotate --rotar los elementos.
+    rotación + sentido horario (der)
+    - sentido antihorario (izq)
+
+    Puedo combinar transformaciones en un mimsmo elemento.
+
+----------Fin transform--------------
+
+    Tarea con tranform, hay que hacer lo que esta acá:
+    https://codepen.io/malerey/pen/xNPjvP
+
+    Animaciones en css:
+    https://daneden.github.io/animate.css/
+
+------------------------------------- GIT ---------------
+
+    git branch: 
+        me lista las ramas que actualmente tiene mi repo. en verde la que estoy actual.
+
+    git checkout -b newrama: 
+        copia lo de la rama actual y crea una nueva con todo eso.
+    
+    git checkout nombreRama: Para pasar de una rama a otra.
+
+    git merge ejemplo (parado sobre master por ej)
+
+    git push: sirve para pushear los cambios al repo.
+
+    Si queremos pushear una rama que no esta en github, x ej, nos va a dar un "error faltal" y nos va a dar la siguiente opción para crearla y subir los cambios:
+
+    git push --set-upstream origin newrama
+    

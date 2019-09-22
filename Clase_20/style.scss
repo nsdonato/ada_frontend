@@ -1,0 +1,16 @@
+$color: #ff0000;
+
+body {
+  background-color: $color;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  background-color: pink;
+  li {
+    color: red;
+    a {
+      background-color: #000;
+    }
+  }
+}
