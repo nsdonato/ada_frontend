@@ -11,14 +11,16 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
 ## Tarea de maquetado - Clase 8: 
 
+Tiene su propio repo, ya que recibe updates post clases con los nuevos temas aprendidos:
+
 https://nsdonato.github.io/ADAC8_Tarea_Portfolio/
-Tiene su propio repo, ya que recibe updates post-# Clases con los nuevos temas aprendidos.
 
 --------------------------------------------------------------------------------------------------------------
 
 ## Tarea de maquetado # Clase 14: 
 
+Tiene su propio repo para poder ver el maquetado online:
+
 https://nsdonato.github.io/ADAC14_Tarea_Maquetado/
-Tiene su propio repo para poder ver el maquetado online.
 
 --------------------------------------------------------------------------------------------------------------
