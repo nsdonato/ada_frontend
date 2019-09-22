@@ -1,14 +1,13 @@
 # ada_frontend
 
-<div>
-  <b>Clase:</b> 1 
-<b>Fecha:</b> 05/08/2019	 
-<b>Objetivo de la clase:</b> Introducción a la programación web. HTML.
-<b>Resumen de la clase:</b> 
-Presentación de Ada. Qué es programar. Front end y back end. Qué son HTML, CSS y Javascript. Hacer nuestra primera web con HTML: qué es un lenguaje de marcado. Las principales etiquetas: html, head, title, body, h1-h6, p. Etiquetas con apertura y cierre y etiquetas de solo apertura como br y hr. Listas ordenadas y desordenadas. La etiqueta strong. Links. 	
-</div>
+1. Clase
+* **Fecha:** 05/08/2019	 
+* **Objetivo de la clase:** Introducción a la programación web. HTML.
+* **Resumen de la clase:** 
+> Presentación de Ada. Qué es programar. Front end y back end. Qué son HTML, CSS y Javascript. Hacer nuestra primera web con HTML: qué >es un lenguaje de marcado. Las principales etiquetas: html, head, title, body, h1-h6, p. Etiquetas con apertura y cierre y etiquetas de >solo apertura como br y hr. Listas ordenadas y desordenadas. La etiqueta strong. Links. 	
+
 --------------------------------------------------------------------------------------------------------------
-Clase: 2
+2. Clase: 2
 Fecha: 07/08/2019
 Objectivo de la clase: Introducción a CSS.	
 Resumen de la clase: Como agregar estilos en línea, en el head de HTML y en un archivo aparte. Atributos de etiquetas de HTML. Clases y IDs en HTML. Selectores de CSS por etiqueta, clase y id.  Color de texto, color de fondo. Nombres de colores y colores HEX. Font-weight, font-style y font-size. "Inspeccionar" un elemento con el navegador. 
