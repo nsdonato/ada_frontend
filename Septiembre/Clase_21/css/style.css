@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap");
+html,
+body,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: #7452a3;
+}
+
+.main .container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.main .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #7452a3;
+  padding-top: 20px;
+}
+
+.main .container nav .enterprise {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #99f7e2;
+}
+
+.main .container nav .menu_icon {
+  width: 36px;
+  height: 36px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main .container .we_are {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .container .we_are .we_are_text {
+  font-family: "Libre Baskerville", serif;
+  font-size: 64px;
+  line-height: 1.5;
+  color: #99f7e2;
+}
+
+.main .container .we_are .our_work_text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  color: #ffffff;
+}
+
+.main .container .we_are .dots {
+  position: fixed;
+  right: 20px;
+}
+
+.main .container .we_are .dots .slider_bullets {
+  width: 12px;
+  height: 153px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main .container .mouse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 15px;
+}
+
+.main .container .mouse .mouse-Icon {
+  width: 36px;
+  height: 36px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+body {
+  background-color: #ff0000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  background-color: pink;
+}
+
+ul li {
+  color: red;
+}
+
+ul li a {
+  background-color: #000;
+}
+/*# sourceMappingURL=style.css.map */
