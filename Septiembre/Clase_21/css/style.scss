@@ -16,16 +16,18 @@ p {
 
 .main {
   background-color: $secondary_color;
+  height: 1024px;
   .container {
     margin: 0 auto;
     width: 80%;
+    height: 1024px;
     nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       background-color: $secondary_color;
       padding-top: 20px;
-      .enterprise {
+      .enterprise_name {
         font-family: $SourceSansPro;
         font-size: 36px;
         font-weight: 600;
@@ -38,9 +40,8 @@ p {
       }
     }
     .we_are {
-      height: 500px;
+      height: 900px;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
       .we_are_text {
@@ -57,8 +58,9 @@ p {
         color: #ffffff;
       }
       .dots {
-        position: fixed;
+        position: absolute;
         right: 20px;
+        top: 400px;
         .slider_bullets {
           width: 12px;
           height: 153px;
@@ -67,13 +69,61 @@ p {
       }
     }
     .mouse {
-      display: flex;
-      justify-content: center;
       padding-bottom: 15px;
+      text-align: center;
       .mouse-Icon {
         width: 36px;
         height: 36px;
         object-fit: contain;
+      }
+    }
+  }
+}
+
+.products {
+  height: 1024px;
+  .products_information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 1024px;
+    .products_img_left {
+      width: 802px;
+      height: 517px;
+      position: absolute;
+      left: 0;
+      z-index: 1;
+      .products_persons_image {
+        width: 802px;
+        height: 517px;
+        object-fit: contain;
+      }
+    }
+    .products_info_rigth {
+      width: 705px;
+      height: 734px;
+      background-color: #f5f3f8;
+      position: absolute;
+      right: 0;
+      .products_header_text {
+        font-family: $LibreBaskerville;
+        font-size: 46px;
+        line-height: 1.5;
+        color: $secondary_color;
+      }
+      .products_text_info {
+        font-family: $SourceSansPro;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 2;
+        color: #060606;
+      }
+      .products_text_link {
+        font-family: Helvetica;
+        font-size: 18px;
+        line-height: 2;
+        color: #67b3ff;
       }
     }
   }

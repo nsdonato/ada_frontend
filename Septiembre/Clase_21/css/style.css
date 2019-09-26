@@ -9,11 +9,13 @@ p {
 
 .main {
   background-color: #7452a3;
+  height: 1024px;
 }
 
 .main .container {
   margin: 0 auto;
   width: 80%;
+  height: 1024px;
 }
 
 .main .container nav {
@@ -30,7 +32,7 @@ p {
   padding-top: 20px;
 }
 
-.main .container nav .enterprise {
+.main .container nav .enterprise_name {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 36px;
   font-weight: 600;
@@ -45,14 +47,10 @@ p {
 }
 
 .main .container .we_are {
-  height: 500px;
+  height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -77,8 +75,9 @@ p {
 }
 
 .main .container .we_are .dots {
-  position: fixed;
+  position: absolute;
   right: 20px;
+  top: 400px;
 }
 
 .main .container .we_are .dots .slider_bullets {
@@ -89,13 +88,8 @@ p {
 }
 
 .main .container .mouse {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 .main .container .mouse .mouse-Icon {
@@ -103,5 +97,68 @@ p {
   height: 36px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.products {
+  height: 1024px;
+}
+
+.products .products_information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 1024px;
+}
+
+.products .products_information .products_img_left {
+  width: 802px;
+  height: 517px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+.products .products_information .products_img_left .products_persons_image {
+  width: 802px;
+  height: 517px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.products .products_information .products_info_rigth {
+  width: 705px;
+  height: 734px;
+  background-color: #f5f3f8;
+  position: absolute;
+  right: 0;
+}
+
+.products .products_information .products_info_rigth .products_header_text {
+  font-family: "Libre Baskerville", serif;
+  font-size: 46px;
+  line-height: 1.5;
+  color: #7452a3;
+}
+
+.products .products_information .products_info_rigth .products_text_info {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+  color: #060606;
+}
+
+.products .products_information .products_info_rigth .products_text_link {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 2;
+  color: #67b3ff;
 }
 /*# sourceMappingURL=style.css.map */
