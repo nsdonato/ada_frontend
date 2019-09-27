@@ -9,7 +9,7 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
 --------------------------------------------------------------------------------------------------------------
 
-## Tarea de maquetado - Clase 8: 
+## Tarea de maquetado # Clase 8: 
 
 Tiene su propio repo, ya que recibe updates post clases con los nuevos temas aprendidos:
 
