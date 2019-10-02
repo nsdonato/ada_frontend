@@ -1,5 +1,7 @@
 # ada_frontend
 
+Curso online, realiado en ADA IT, comenzado en 08/2019 - 04/2020. 
+
 En cada clase se encuentra un archivo Readme con la información de la misma.
 
 --------------------------------------------------------------------------------------------------------------
