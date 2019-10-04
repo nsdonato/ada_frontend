@@ -1,5 +1,7 @@
 # ada_frontend
 
+Curso online, realiado en ADA IT, comenzado en 08/2019 - 04/2020. 
+
 En cada clase se encuentra un archivo Readme con la información de la misma.
 
 --------------------------------------------------------------------------------------------------------------
@@ -9,11 +11,13 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
 --------------------------------------------------------------------------------------------------------------
 
-## Tarea de maquetado - Clase 8: 
+## Tarea de maquetado # Clase 8: 
 
 Tiene su propio repo, ya que recibe updates post clases con los nuevos temas aprendidos:
 
-https://nsdonato.github.io/ADAC8_Tarea_Portfolio/
+Repo: https://github.com/nsdonato/ADAC8_Tarea_Portfolio 
+
+GitHubPage: https://nsdonato.github.io/ADAC8_Tarea_Portfolio/
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -21,7 +25,9 @@ https://nsdonato.github.io/ADAC8_Tarea_Portfolio/
 
 Tiene su propio repo para poder ver el maquetado online:
 
-https://nsdonato.github.io/ADAC14_Tarea_Maquetado/
+Repo: https://github.com/nsdonato/ADAC14_Tarea_Maquetado 
+
+GitHubPage: https://nsdonato.github.io/ADAC14_Tarea_Maquetado/
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -29,6 +35,8 @@ https://nsdonato.github.io/ADAC14_Tarea_Maquetado/
 
 Tiene su propio repo para poder ver el maquetado online:
 
-https://nsdonato.github.io/ADAC21_Tarea_Sass/
+Repo: https://github.com/nsdonato/ADAC21_Tarea_Sass 
+
+GitHub: https://nsdonato.github.io/ADAC21_Tarea_Sass/
 
 --------------------------------------------------------------------------------------------------------------
