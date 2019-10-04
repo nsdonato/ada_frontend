@@ -1,0 +1,9 @@
+box-sizing: border-box;
+    Esto hace que el padding y border, no afecte la medida, o sea, no se sumen y se agrande el elemento, sino que mantenga su tamaño fijo. El padding lo aplica primero y después el width y height que pusimos, o sea, hace el calculo.
+
+* {
+    box-sizing: border-box;
+}
+
+padding: TOPpx, RIGHTpx, BOTTOMpx, LEFTpx;
+padding: TOP-BOTTOMpx, RIGHT-LEFTpx;

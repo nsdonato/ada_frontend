@@ -1,0 +1,36 @@
+sass, es css con un agregado.    
+    Me agrega cosas a css, pero no quita nada.
+    instalamos el traductor (?
+    Para eso necesitamos Node JS: https://nodejs.org/es/
+    Revisar de tener node instalado en la pc: node -v (para ver la versión, si sale algo en la consola es porque lo tenemos instalado).
+    npm
+        Es un gestor de paquetes.
+        Los paquetes son código que hacen otros desarrolladores y npm nos permite conectar con eso.
+        > npm install -g node-sass
+    
+    Sass:
+        $variable: valor del atributo.
+        $primary_color: red;
+
+        border: $1px solid $primary_color (se puede anidar.)
+        
+        css:
+            ul {
+                background-color: pink;
+            }
+            li {
+                list-style: none;
+            }
+            a {
+                color: red;
+            }
+        scss:
+            ul {
+                background-color: pink;
+                li{
+                    list-style: none;
+                    a{
+                        color: red;
+                    }
+                }
+            }

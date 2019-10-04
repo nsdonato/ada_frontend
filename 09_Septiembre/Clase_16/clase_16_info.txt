@@ -13,4 +13,8 @@ background-image: line-gradient(
     rgba(0,0,255,0.5)),
     url("http://laimagen.com") // las gradientes son una imagen de fondo.
 
+Ejemplo hover sobre imagenes, transparencias:
+https://codepen.io/malerey/pen/mdbLGdV
+https://codepen.io/malerey/pen/ExYLegM
+
 TODO: No termine de ver esta clase.

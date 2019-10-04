@@ -1,0 +1,7 @@
+- Display no es una propiedad animable.
+https://codepen.io/malerey/pen/wvwONxV
+
+
+Para hacer el overlay del menu para mobile, una de las opciones es usar el elemento <a href="#sección"> navegación hacía un div de la pagina por ej. Ese pasaría a ser el target del link.
+Los links tienen una pseudo clase que se llama target, o sea, cuando se clickee.
+
