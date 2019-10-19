@@ -1,0 +1,67 @@
+*********** Selectores:
+
+
+- Tanto la clase1 como la clase2 van a tener cierta propiedad.
+    .clase1, .clase 2 { prop: valor } 
+
+- Los p que sean hijos directo de clase1, van a tener tal propiedad.
+    .clase1 > p { prop: valor } 
+
+- Cualquier p que sea hijo de clase1
+    .clase1 p { prop: valor } 
+
+
+*********** Pseudo clases:
+
+- Link visistados
+    a:visited { color: red; }
+
+- Link activo
+    a:active { color: green; }
+
+- Link hover
+    a:hover { background-color: gray; }
+
+- Seleccionar el primer elemento de una clase.
+    .clase:first-child { color: red; }
+
+- Seleccionar el ultimo elemento de una clase.
+    .clase:last-child { color: red; }
+
+- Seleccionar el segundo elemento de una clase.
+    .clase:nth-child(2) { color: red; }
+
+- Seleccionar los elementos pares de una clase.
+    .clase:nth-child(even) { color: red; }
+
+- Seleccionar los elementos impares de una clase.
+    .clase:nth-child(odd) { color: red; }
+
+*********** Pseudo elementos:
+
+- Le agranda el color a la primer letra del parrafo.
+    p::first-letter { font-size: 58px; }
+
+- Cuando el usuario selecciona un texto, se pone amarillo el fondo.
+    p::selection { background-color: yellow; }
+
+- Le agrega contenido al principio de un elemento, no forma parte del elemento en si.
+    p::before { content: "HOLA"; }
+
+- Le agrega contenido al final de un elemento, no forma parte del elemento en si.
+    p::after { content: "CHAU"; }
+
+Mas info sobre el tema: https://github.com/nsdonato/bootcamp-frontend/blob/master/02_html-css/contenido/09_selectores.md
+
+*********** TABLAS
+
+Las tablas pueden tener 3 sectores definidos (thead, tbody y tfoot)
+El elemento thead define el encabezado de la tabla
+El elemento tbody define el cuerpo de la tabla
+El elemento tfoot define el pie de la tabla
+Podemos utilizar el elemento th para definir un table heading o encabezado de tabla
+El th funciona tanto como encabezado de una columna al igual que para una fila
+Es una buena práctica definir todas las secciones de una tabla
+Esto ayuda a los lectores de pantalla
+
+Mas info sobre tablas: https://github.com/nsdonato/bootcamp-frontend/blob/master/02_html-css/contenido/04_tablas.md
