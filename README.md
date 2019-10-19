@@ -8,10 +8,11 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
 ### Clases de Agosto: 1 a 11
 ### Clases de Septiembre: 12 a 24
+### Clases de Octubre: 25 a 36
 
 --------------------------------------------------------------------------------------------------------------
 
-## Tarea de maquetado # Clase 8: 
+## Tarea de maquetado clase 8: 
 
 Tiene su propio repo, ya que recibe updates post clases con los nuevos temas aprendidos:
 
@@ -21,9 +22,7 @@ GitHubPage: https://nsdonato.github.io/ADAC8_Tarea_Portfolio/
 
 --------------------------------------------------------------------------------------------------------------
 
-## Tarea de maquetado # Clase 14: 
-
-Tiene su propio repo para poder ver el maquetado online:
+## Tarea de maquetado clase 14: 
 
 Repo: https://github.com/nsdonato/ADAC14_Tarea_Maquetado 
 
@@ -31,9 +30,15 @@ GitHubPage: https://nsdonato.github.io/ADAC14_Tarea_Maquetado/
 
 --------------------------------------------------------------------------------------------------------------
 
-## Tarea de maquetado # Clase 21: 
+## TP grupal n° 1, comenzado en clase 18: 
 
-Tiene su propio repo para poder ver el maquetado online:
+Repo: https://github.com/nsdonato/TPClase_18
+
+GitHub: https://nsdonato.github.io/TPClase_18/index.html
+
+--------------------------------------------------------------------------------------------------------------
+
+## Tarea de maquetado clase 21: 
 
 Repo: https://github.com/nsdonato/ADAC21_Tarea_Sass 
 
