@@ -1,0 +1,23 @@
+Operadores aritmeticos:
+    ** potencia de otro numero
+    / divición
+    % resto
+    + suma
+    - resta
+
+Operadores de incremento y decremento:
+    ++ aumento uno
+    -- resta uno
+    += (variable + el numero) ej:
+    numero += 5 
+    numero = numero + 5;
+    -=
+    *=
+    /=
+
+Operadores de comparación:
+    == simple ej: 2 == "2" da true. Otro ej "" == 0 da true.
+    === estricto ej: 2 === "2" da false.
+
+
+* Ejercicio 34 no hay que hacerlo porque hay algo que no vimos.
