@@ -1,0 +1,6 @@
+https://gihub.com/malerey/circuito-corto
+
+promp, idem a alert pero le permite ingresar información al usuario, nosotros podemos capturar lo que el usuario puso para utilizarlo.
+
+const nombre = prompt("Ingresa tu nombre");
+console.log(nombre); // noe

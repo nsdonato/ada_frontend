@@ -1,0 +1,34 @@
+Operadores de comparación. (mayor y menor, mayor o igual, menor o igual)
+
+>
+<
+>=
+<=
+
+Operadores logicos.
+&& (and) -> va a ser verdadera, si ambas partes son true
+|| (or) -> nos va a devolver true, si alguna es true.
+
+true && true // true
+true && false // false
+false && false // false
+false && true // false
+
+true || false // true
+false || true // true
+true || true // true
+false || false // false.
+
+!true // false
+!false // true
+
+
+Ejercicios:
+https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/operadores/ejercicios/ej34.md
+https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/operadores/ejercicios/ej36.md
+https://github.com/Ada-IT/bootcamp-frontend/blob/master/03_javascript/operadores/ejercicios/ej37.md
+
+undefined convertido a booleano da false.
+los nros distintos a 0 dan true.
+
+https://github.com/malerey/Operadores-logicos-
