@@ -1,4 +1,4 @@
-# Clase: 41
+# Clase: 42
 * **Fecha:** 13/11/2019
 * **Objetivo de la clase:** Javascript.   
 * **Resumen de la clase:**
