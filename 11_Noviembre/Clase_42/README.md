@@ -6,4 +6,3 @@
 Links de la clase de hoy:
 Hacer los ejercicios 1, 2, 5, 8, 9 y 10
 https://github.com/Ada-IT/bootcamp-frontend/tree/master/03_javascript/arrays/ejercicios
-"
