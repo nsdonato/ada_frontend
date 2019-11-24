@@ -4,7 +4,7 @@ Nuevo tipo de dato: Array
 
 Array: Variable con más de un valor, esuna colección de datos, va dentro de corchetes con comas separados.
 
-Let primerArray = [“Ivana”, “Sabri”, “Ceci” ]
+Let primerArray = ['Ivana', 'Sabri', 'Ceci' ]
 console.log(primerArray)
 
 Si quiero poner en mayusculas por ejemplo, cada nombre de arriba, necesito acceder a cada uno de los datos, ¿Cómo lo hago? Por su índice.
@@ -12,7 +12,7 @@ console.log(elNombreDelArray[0].toUpperCase()) El que está en la posición 0 es
 
 Métodos de Arrays
 
-Let alumnas = [“Lili”, “Maria”, “NiL”, “SaBri”, “SOl”, “Tefi”];
+Let alumnas = ['Lili', 'Maria', 'NiL', 'SaBri', 'SOl', 'Tefi'];
 
 alumnas[0].toUpperCase();
 alumnas[1].toUpperCase();
@@ -34,12 +34,12 @@ Sintaxis de array: nombreDelArray.nombreDelMetodo(datoAccesorio o parámetro)
 
 Push: Agregar un elemento al final del array, modifica el array original.
 
-alumnas.push(“Tefi”);
+alumnas.push('Tefi');
 console.log(alumnas);
 
 Unshift: Agrega un elemento al principio del array, modifica el array original.
 
-alumnas.unshift(“Tefi”);
+alumnas.unshift('Tefi');
 console.log(alumnas);
 
 Pop: Elimina el último elemento de un array
@@ -49,12 +49,12 @@ Shift: Elimina el primer elemento de un array.
 alumnas.shift(); ->Sin parámetro porque siempre va a sacar al primero.
 
 Slice: Si queremos seleccionar un elemento del medio, desde una posición hasta otra.  No modifica el array original. 
-Let alumnas = [“Lili”, “Maria”, “NiL”, “SaBri”, “SOl”, “Tefi”];
+Let alumnas = ['Lili', 'Maria', 'NiL', 'SaBri', 'SOl', 'Tefi'];
 console.log (alumnas.slice(3, 5))
 
 Splice: Permite agregar y quitar elementos de un array, si modifica el array original. Tiene un tercer parámetro opcional, funciona si quiero agregar un parámetro.
 alumnas.splice(a partir del índice 2, quiero eliminar 1 alumna);
-opcional-> alumnas.splice(a partir del índice 2, quiero eliminar 1 alumna o agregar “Noe”);
+opcional-> alumnas.splice(a partir del índice 2, quiero eliminar 1 alumna o agregar 'Noe');
 Si no se pone el segundo parámetro, el navegador borra a partir del primer parámetro todo.
 
 Las bases de datos con las que nos comunicamos, suelen utilizar Array.
@@ -63,16 +63,16 @@ Dentro de un array puedo tener cualquier tipo de dato de Javascript, puedo tener
 Arrays dentro de arrays
 
 Let usuarios = [
-	[“maria”, “Abihaggle“, 25, 26115266369],
-	[“Lili”, “Belliski“, 25, 26115266369],
-	[“Ceci”, “Morales“, 25, 26115266369],
-	[“SOL”, “Alvarez“, 25, 26115266369],
-	[“Celi”, “Gijan“, 25, 26115266369],
+	['maria', 'Abihaggle', 25, 26115266369],
+	['Lili', 'Belliski', 25, 26115266369],
+	['Ceci', 'Morales', 25, 26115266369],
+	['SOL', 'Alvarez', 25, 26115266369],
+	['Celi', 'Gijan', 25, 26115266369],
 ];
 
 Podemos ver los arrays así, pero se recomienda hacerlo con un for:
-Let primerElemento = usuarios[0][0] (Voy a ver “maria”)
-console.log(primerElemento[0];(Voy a ver “maria”)
+Let primerElemento = usuarios[0][0] (Voy a ver 'maria')
+console.log(primerElemento[0];(Voy a ver 'maria')
 
 Los arrays se pueden recorrer con un for:
 
@@ -87,7 +87,7 @@ For dentro de for
 for (let i = 0; i < usuarios.length; i++) { // primera vuelta i vale 0
 console.log(usuarios[i]) // dentro del primer for
 	for (let j = 0; j < usuarios[1].length; j++) { (Le cambiamos i por j porque no podemos poner el mismo)
-	If (typeof usuarios[i] [j].toUpperCase()) === “string”) {
+	If (typeof usuarios[i] [j].toUpperCase()) === 'string') {
 	console.log(usuarios[i] [j].toUpperCase()) // soy el for dentro del for
 	}
 };
@@ -184,7 +184,7 @@ console.log(`Ultima ganadora de Ru Paul: ${ganadorasRupaul[ganadorasRupaul.lengt
 ------------------------------------------------------------------------------------------------
 
 console.log(`Ejercicio 10: 
-Teniendo dos arrays de canciones, comparar sus longitudes y mostrar en pantalla “La playlist de Nirvana tiene más canciones” si el array playlistNirvana tiene más canciones, o “La playlist de Foo Fighters tiene más canciones” si el array playlistFoo tiene más elementos.
+Teniendo dos arrays de canciones, comparar sus longitudes y mostrar en pantalla 'La playlist de Nirvana tiene más canciones' si el array playlistNirvana tiene más canciones, o 'La playlist de Foo Fighters tiene más canciones' si el array playlistFoo tiene más elementos.
 var playlistNirvana = ['Smells Like Teen Spirit', 'Come As You Are', 'Heart-Shaped Box', 'Lithium'];
 var playlistFoo = ['Everlong', 'The Pretender', 'Learn to Fly'];`);
 

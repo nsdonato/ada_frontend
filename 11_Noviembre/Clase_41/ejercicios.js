@@ -25,8 +25,6 @@ let dondeEmpiezo = 1;
 let dondeTermino = nombre.length;
 alert(nombre.charAt(0).toUpperCase() + nombre.slice(dondeEmpiezo, dondeTermino));
 
-TODO: Ejercicios que estan en el readme.
-
 let testTrim = " hola como estas ";
 alert(testTrim.trim()); // sin espacios adelante y atras.
 
