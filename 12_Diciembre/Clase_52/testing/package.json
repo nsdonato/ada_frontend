@@ -1,0 +1,18 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "1er clase de testing en ADA",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "caca": "jijiji hiciste caca && exit 1"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Noelia Donato",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

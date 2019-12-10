@@ -44,7 +44,7 @@ const TieneNumeros = () => {
 	return false;
 }
 
-const TieneLetras = () => {
+const TieneLetras = (password) => {
 	// la funcion que chequea si tiene letras  es mas o menos asi:
 	for (let i = 0; i < password.length; i++) {
 		if (letras.indexOf(password[i]) != -1) {
@@ -57,9 +57,9 @@ const TieneLetras = () => {
 
 const VerificarPassword = (password) => {
 	if (LargoValido(password) && TieneNumeros(password) && TieneLetras(password)) {
-		alert("Password valido");
+		return true;
 	} else {
-		alert("Por favor verificar el password");
+		return false;
 	}
 }
 

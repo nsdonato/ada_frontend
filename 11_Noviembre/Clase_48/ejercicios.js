@@ -98,7 +98,7 @@ const calcularPromedio = (arr) => {
 	let cont = 0;
 
 	for (let i = 0; i < arr.length; i++) {
-		cont += arr.[i];
+		cont += arr[i];
 	}
 
 	if (arr.length == 0) {
