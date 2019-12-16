@@ -1,0 +1,8 @@
+test => es un metodo que recibe un string, donde describimos que queremos probar y cual sería el resultado (ser breve).
+una función y adentro:
+expect => lo que queremos probar y lo que esperamos que retorne.
+
+ej:
+test('suma 0 y 0 y devuelve 0', () => {
+    expect(sumar(0, 0)).toBe(0);
+});

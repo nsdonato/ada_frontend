@@ -1,0 +1,14 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "1er clase de testing en ADA",
+  "main": "53.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Noelia Donato",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
