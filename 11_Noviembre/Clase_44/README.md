@@ -6,3 +6,4 @@
   > La herramienta trello. Usando break en for. Ejercitacion integradora grupal.
   > Links de la clase de hoy
   > https://github.com/malerey/Integrador-2
+- **Repo del integrador 2:** https://github.com/nsdonato/integrador-2

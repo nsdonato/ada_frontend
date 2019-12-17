@@ -6,3 +6,5 @@
   > Ejercitacion integradora grupal.
 
 https://github.com/Ada-IT/bootcamp-frontend/blob/master/integradores/Integrador%203.%20Funciones.md"
+
+- **Repo del integrador 3:** https://github.com/nsdonato/integrador_3
