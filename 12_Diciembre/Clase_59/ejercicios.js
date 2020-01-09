@@ -265,7 +265,7 @@ const ganadoras = [
 	}
 ];
 
-const mostrarGanadoras = (ganadorasRuPaul) => {
+const mostrarGanadoras = ganadorasRuPaul => {
 
 	for (let i = 0; i < ganadorasRuPaul.length; i++) {
 		console.log(`${ganadorasRuPaul[i].nombre} ganó la temporada ${ganadorasRuPaul[i].temporada}`);
@@ -346,7 +346,7 @@ const bandas = [
 	{ id: 3, nombre: "Pearl Jam", fundacion: 1990, activa: true },
 ];
 
-const mostrarBandas = (arrayBandas) => {
+const mostrarBandas = arrayBandas => {
 
 	for (let i = 0; i < arrayBandas.length; i++) {
 		if (arrayBandas[i].activa) {
