@@ -302,18 +302,24 @@ const nevermind = [
 	{ id: 5, nombre: "Lithium", duracion: 257 }
 ];
 
-let calcularDuracionTotal = 0;
-let calcularPromedioPorCancion = 0;
-let totalCanciones = nevermind.length;
+let totalDeCanciones = nevermind.length;
 
-for (let i = 0; i < nevermind.length; i++) {
-	calcularDuracionTotal += nevermind[i].duracion;
+const calcularPromedioPorCancion = (duracionTotalCanciones, totalCanciones) => {
+	return duracionTotalCanciones / totalCanciones;
 }
 
-calcularPromedioPorCancion = calcularDuracionTotal / totalCanciones;
+const calcularDuracionTotal = disco => {
+	let total = 0;
+	for (let i = 0; i < disco.length; i++) {
+		total += disco[i].duracion;
+	}
+	return total;
+}
 
-console.log(calcularDuracionTotal);
-console.log(calcularPromedioPorCancion);
+totalDeDuracionCanciones = calcularDuracionTotal(nevermind);
+
+console.log(totalDeDuracionCanciones);
+console.log(calcularPromedioPorCancion(totalDeDuracionCanciones, totalDeCanciones));
 
 console.log("---------------------------------------------------------------------------------------------");
 
