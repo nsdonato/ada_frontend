@@ -10,3 +10,4 @@ Links de la clase de hoy
 https://github.com/malerey/Clase-54-funciones
 
 Notas: clase grabada porque la original no se grabó.
+Nota mia: No vi la clase.
