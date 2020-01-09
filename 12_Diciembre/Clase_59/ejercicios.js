@@ -1,15 +1,7 @@
 /*-----------------------------  INFO CLASE -------------------------------------------------------------
-
-
-/*-----------------------------  EJERCICIOS -------------------------------------------------------------
-
-Objetos
-
-
-
-
+Nada nuevo, repaso y ejercicios.
 */
-//--------------------------------------------------------------------------------------------------
+
 console.log(`Ejercicio 1
 Crear una variable llamada user, a la que le vamos a asignar un objeto.
 El objeto tiene que tener 3 propiedades: firstName, lastName email, age, con tus datos
