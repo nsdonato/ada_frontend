@@ -1,8 +1,82 @@
-/*-----------------------------  INFO CLASE -------------------------------------------------------------
+/*-----------------------------  INFO CLASE -------------------------------------------------
 
-Me falta ver la clase.
+OBJETOS:
 
-/*-----------------------------  EJERCICIOS -------------------------------------------------------------
+- Los arrays son listas y generalmente deberían ser de datos todos iguales, no para guardar información de usuarios, por ejemplo, porque solo tenemos indices, no es que algo nos hace referencia a que hay en tal posición.
+
+- Los objetos nos dejan guardar información, asignandole un nombre acorde a lo que se va a guardar en esa PROPIEDAD, las propiedades pueden guardar diferentes tipos de datos, number, array, strings, objetos, funciones, etc.
+
+- Así se declara un objeto vacio (x ej si solo (x el momento) queremos declarar una varible de tipo objeto)
+let objeto = {};
+
+	ej de un objeto del tipo persona, como notamos, las personas tienen diferentes tipos de PROPIEDADES:
+
+- Las propiedades son de clave-valor, por ej, una de las propiedades es nombre: 'noelia', donde la clave es nombre y el valor 'noelia', que es una variable del tipo string.
+
+- Las propiedades se escriben en camelCase, pero se pueden escribir de cualquier manera, aunque no pueden arrancar declaradas con un numero.
+
+	let persona = {
+		nombre: "noelia",
+		edad: 33,
+		sabeProgramar: true
+	}
+
+- OPCIONALMENTE, las propiedades también se pueden ver escritas de la siguiente manera (ella no lo recomienda)
+
+	let persona = {
+		"nombre": "noelia"
+	}
+
+- Agregar una propiedad que no tiene al objeto:
+
+	persona.apellido = "Donato" // se agrega al objeto, si hacemos un console log, ahora vamos a ver todas las propiedades anterior mas esta.
+
+- De la misma manera, pero con una propiedad existente, cambiamos el valor contenido, ej:
+	persona.nombre = "Pepita"
+
+- Si el objeto lo declaramos como const, podemos agregar propiedades, pero no eliminar variables que ya tenía. Da error.
+
+- Las "comillas magicas" : `` se llaman BACKTICK
+
+- Para acceder a la información del objeto sería, por ej:
+
+	let persona = {
+		nombre: "noelia",
+		edad: 33,
+		direccion: {
+			calle: esmeralda
+			cp: 1007
+		}
+		sabeProgramar: true
+	}
+
+	console.log(persona.nombre); //noelia
+	console.log(persona.direccion.calle); //esmeralda
+
+api.themoviedb.org -> la api de peliculas 
+
+- Los array son una lista de cosas, por ej en un objeto guardaríamos:
+
+	let persona = {
+		nombre: "noelia",
+		edad: 33,
+		lenguajesDeProgramacion: ["JavaScript", "C#", "Java"],
+		hijos: [
+			{
+				nombre: "gia"
+				edad 14
+			}
+		]
+	}
+
+- Para acceder a los nombres del array hijos, usamos un for y accedemos hasta ahí de esta manera
+
+	De esta manera simplemente vamos mostrando nombre por nombre, podríamos usar una variable acumuladora y después mostrar todo junto.
+	for (let i = 0; i < array.length; i++) {
+		console.log(persona.hijos[i].nombre); 
+	}
+
+/*-----------------------------  EJERCICIOS -------------------------------------------------
 
 Ejercicios del 1 al 5
 
@@ -69,6 +143,7 @@ let usuarioCuatro = {
 	email: "Radia Perlman",
 	telefono: "1234509876"
 }
+
 
 let usuarioCinco = {
 	id: 5,

@@ -1,6 +1,4 @@
-/*-----------------------------  INFO CLASE -------------------------------------------------------------
-Nada nuevo, repaso y ejercicios.
-*/
+/*------------------  INFO CLASE:  Nada nuevo, repaso y ejercicios.-----------------*/
 
 console.log(`Ejercicio 1
 Crear una variable llamada user, a la que le vamos a asignar un objeto.
