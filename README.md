@@ -22,9 +22,15 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
     - HTML y CSS (Ver Agosto + Clases: 12 al 19)
     - Sass (Clases: 20 al 22)
-    - TP1: (Clases: 23, 24)
+    - TP1: (Clases: 23 y 24)
 
 ### Clases de Octubre: 25 a 36
+
+> Temas:
+
+    - TP1: (Ver Septiembre + Clase: 25, 28)
+    - Bootstrap (Clases: 26 y 27)
+    - Javascript (Clases: 29 a 36)
 
 ### Clases de Noviembre: 37 a 48
 
