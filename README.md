@@ -8,13 +8,23 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
 ### Clases de Agosto: 1 a 11
 
+> Temas:
+
+    - Introducción a la programación web. HTML. (C01)
+    - Introducción a CSS. (C02)
+    - HTML y CSS (C03, 04, 05, 09, 10, 11)
+    - Introduccion a git (C06, 07)
+    - Practica git + html + css (C08)
+
 ### Clases de Septiembre: 12 a 24
 
 ### Clases de Octubre: 25 a 36
 
 ### Clases de Noviembre: 37 a 48
 
-### Clases de Diciembre: 49 a ...
+### Clases de Diciembre: 49 a 57
+
+### Clases de Enero: 58
 
 ---
 
