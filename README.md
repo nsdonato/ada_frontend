@@ -20,7 +20,9 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
 > Temas:
 
-    - HTML y CSS (Ver Agosto + Clases: 12 al 19)
+    - HTML y CSS (Ver Agosto + Clases: 12, 13, 16 y 19)
+    - Flexbox (Clases: 14, 15 y 18)
+    - Css y git (Clase: 17)
     - Sass (Clases: 20 al 22)
     - TP1: (Clases: 23 y 24)
 
@@ -28,15 +30,43 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
 > Temas:
 
-    - TP1: (Ver Septiembre + Clase: 25, 28)
+    - TP1: (Ver Septiembre + Clase: 25 y 28)
     - Bootstrap (Clases: 26 y 27)
-    - Javascript (Clases: 29 a 36)
+    - Javascript (Clase: 29)
+        - Javascript.  Variables y operadores (Clases: 30 a 35)
+        - Javascript. Estructuras de control. (Clase: 36)
 
 ### Clases de Noviembre: 37 a 48
 
+> Temas:
+
+    - Javascript. Estructuras de control.  (Ver clases Octubre + Clases: 37 a 46)
+    - Javascript. Funciones. (Clases: 47 y 48)
+
 ### Clases de Diciembre: 49 a 57
 
-### Clases de Enero: 58
+> Temas:
+
+    - Javascript. Funciones. (Ver clases Noviembre + Clases: 49 a 51 y 54 a 57)
+    - Javascript. Testing. (Clases: 52 y 53)
+
+### Receso
+
+> 23/12/2019
+> 25/12/2019
+> 27/12/2019
+> 30/12/2019
+> 01/01/2020
+> 03/01/2020
+
+### Clases de Enero: 58 a ...
+
+> Temas:
+
+    - Javascript. Objetos. (Clase: 58)
+    - Javascript (Clase: 59)
+
+    (Javascript se ve desde Octubre, ver temas particulares en los meses anteriores)
 
 ---
 
