@@ -10,11 +10,11 @@ En cada clase se encuentra un archivo Readme con la información de la misma.
 
 > Temas:
 
-    - Introducción a la programación web. HTML. (C01)
-    - Introducción a CSS. (C02)
-    - HTML y CSS (C03, 04, 05, 09, 10, 11)
-    - Introduccion a git (C06, 07)
-    - Practica git + html + css (C08)
+    - Introducción a la programación web. HTML. (Clase: 1)
+    - Introducción a CSS. (Clase: 2)
+    - HTML y CSS (Clases: 3, 4, 5, 9, 10, 11)
+    - Introduccion a git (Clases: 6, 7)
+    - Practica git + html + css (Clase: 8)
 
 ### Clases de Septiembre: 12 a 24
 
