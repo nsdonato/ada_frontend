@@ -113,6 +113,139 @@ body {
           transform: scale(1.2);
 }
 
+.services {
+  background-color: #ecf5ff;
+  padding: 60px 0 40px 0;
+  -webkit-box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.services .services__container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.services .services__container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+.services .services__container header h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #283d50;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.services .services__container header p {
+  font-family: "Open Sans", sans-serif;
+  color: #556877;
+  font-size: 15px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services .services__container .services__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .services__container .services__main .services__card {
+  overflow: hidden;
+  position: relative;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #ffff;
+  -webkit-box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+          box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 4%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.services .services__container .services__main .services__card .services__img {
+  position: absolute;
+  left: -10px;
+  top: calc(50% - 32px);
+  width: 20%;
+}
+
+.services .services__container .services__main .services__card .services__img .ionic {
+  font-size: 70px;
+}
+
+.services .services__container .services__main .services__card .services__text {
+  width: 70%;
+  margin-left: 20%;
+}
+
+.services .services__container .services__main .services__card .services__text h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #283d50;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.services .services__container .services__main .services__card .services__text h4 a {
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.services .services__container .services__main .services__card .services__text h4 :hover {
+  color: #0b6bd3;
+}
+
+.services .services__container .services__main .services__card .services__text p {
+  font-family: "Open Sans", sans-serif;
+  color: #556877;
+  font-size: 14px;
+}
+
+.services .services__container .services__main .services__card:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .services .services__container .services__main .services__card {
+    width: 44%;
+  }
+}
+
 @media (max-width: 767px) {
   .header-our-clients p {
     width: 80%;
@@ -144,6 +277,23 @@ body {
   .clients-block .client-container .client-logo img {
     width: 80%;
     height: 80%;
+  }
+  .services .services__container {
+    width: 80%;
+  }
+  .services .services__container .services__main .services__card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .services .services__container .services__main {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .services .services__container .services__main .services__card {
+    width: 44%;
   }
 }
 

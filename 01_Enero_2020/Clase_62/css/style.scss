@@ -78,6 +78,114 @@ body {
   }
 }
 
+.services {
+  background-color: #ecf5ff;
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  .services__container {
+    width: 85%;
+    margin: 0 auto;
+    header {
+      @include flex_column_jcenter_aicenter;
+      padding: 15px;
+      h1 {
+        @include primary_font_primary_color;
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+      p {
+        @include secondary_font_secondary_color;
+        font-size: 15px;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+    }
+    .services__main {
+      @include flex_wrap_jcenter_aicenter;
+      .services__card {
+        overflow: hidden;
+        position: relative;
+        padding: 30px;
+        border-radius: 10px;
+        margin: 0 10px 40px 10px;
+        background: $fourth_color;
+        box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+        width: 40%;
+        display: flex;
+        align-items: center;
+        margin-left: 4%;
+        transition: all 0.3s ease-in-out;
+        .services__img {
+          position: absolute;
+          left: -10px;
+          top: calc(50% - 32px);
+          width: 20%;
+          .ionic {
+            font-size: 70px;
+          }
+          // .ion-ios-analytics-outline {
+          //   color: #ff689b;
+          // }
+          // .ion-ios-bookmarks-outline {
+          //   color: #e9bf06;
+          // }
+          // .ion-ios-paper-outline {
+          //   color: #3fcdc7;
+          // }
+          // .ion-ios-speedometer-outline {
+          //   color: #41cf2e;
+          // }
+          // .ion-ios-world-outline {
+          //   color: #d6ff22;
+          // }
+          // .ion-ios-clock-outline {
+          //   color: #4680ff;
+          // }
+        }
+        .services__text {
+          width: 70%;
+          margin-left: 20%;
+          h4 {
+            @include primary_font_primary_color;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            a {
+              color: #000000;
+              text-decoration: none;
+              transition: 0.5s;
+            }
+            :hover {
+              color: #0b6bd3;
+            }
+          }
+          p {
+            @include secondary_font_secondary_color;
+            font-size: 14px;
+          }
+        }
+      }
+      .services__card:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .services {
+    .services__container {
+      .services__main {
+        .services__card {
+          width: 44%;
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 767px) {
   .header-our-clients {
     p {
@@ -103,8 +211,30 @@ body {
       }
     }
   }
+  .services {
+    .services__container {
+      width: 80%;
+      .services__main {
+        .services__card {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
+@media (max-width: 991px) {
+  .services {
+    .services__container {
+      .services__main {
+        justify-content: space-between;
+        .services__card {
+          width: 44%;
+        }
+      }
+    }
+  }
+}
 @media (min-width: 767px) and (max-width: 991px) {
   .header-our-clients {
     p {
