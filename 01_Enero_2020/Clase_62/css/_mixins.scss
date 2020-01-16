@@ -1,0 +1,95 @@
+@import "variables";
+
+@mixin flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin flex_jcenter {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex_jcenter_aicenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex_wrap_jcenter_aicenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex_column_jcenter_aicenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex_column_around_aicenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin primary_font_primary_color {
+  font-family: $primary_font;
+  color: $primary_font_color;
+}
+
+@mixin secondary_font_secondary_color {
+  font-family: $secondary_font;
+  color: $secondary_font_color;
+}
+
+@mixin m__contact-us__form {
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 6px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    font-family: $primary_font;
+  }
+}
+
+@mixin decotex {
+  font-family: $primary_font;
+  color: $fourth_color;
+}
+
+@mixin main-title-testimonials-ourclients {
+  color: $primary_font_color;
+  font-family: $primary_font;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+@mixin section-style {
+  background-color: #ecf5ff;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  padding: 60px 0;
+}
+
+@mixin dots-testimonials-size-style {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+}
