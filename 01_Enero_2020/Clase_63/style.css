@@ -1,0 +1,48 @@
+.modal {
+  width: 400px;
+  height: 350px;
+  position: fixed;
+  top: 50px;
+  left: 200px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 30px;
+  background-color: white;
+}
+
+.nomostrar {
+  display: none;
+}
+
+#container {
+  display: flex;
+}
+
+.card {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+.card:hover {
+  border: 1px solid #777;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.modalcontent {
+  width: 100%;
+  height: auto;
+}
+
+div.modalcontent img {
+  width: 100%;
+  height: auto;
+}
