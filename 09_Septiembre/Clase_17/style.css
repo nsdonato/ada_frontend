@@ -24,8 +24,7 @@ div:hover {
     background-color: blue;
     width: 200px;
     height: 150px;
-} */ 
-
+} */
 
 /*EJEMPLO 3:
 div { 
@@ -55,37 +54,37 @@ div:hover {
     transform: rotate(360deg) scale(0.5);
 }
 */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 body {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #314354e0;
-    height: 250px;
-    width: 250px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #314354e0;
+  height: 250px;
+  width: 250px;
 }
 
 .boton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    height: 50px;
-    width: 150px;
-    font-family: 'Roboto', sans-serif;
-    box-shadow: 5px 6px 0px 0px rgba(112,0,112,1);
-    transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 50px;
+  width: 150px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 5px 6px 0px 0px rgba(112, 0, 112, 1);
+  transition: all 0.5s;
 }
 
-.boton:hover{
-    color: #fff;
-    background-color: rgba(112,0,112,1);
-    box-shadow: -5px -6px 0px 0px rgb(255, 255, 255);
-    transform: translate(5px, 5px);
+.boton:hover {
+  color: #fff;
+  background-color: rgba(112, 0, 112, 1);
+  box-shadow: -5px -6px 0px 0px rgb(255, 255, 255);
+  transform: translate(5px, 5px);
 }
