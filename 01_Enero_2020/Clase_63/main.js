@@ -18,40 +18,45 @@ const imagesAsObjects = [
 ]
 
 let acumuladoraCards = "";
-const imgAbrirModal = document.getElementsByTagName("img");
-const containerHtml = document.getElementById("container");
-const contenedorModal = document.getElementById("contenedorModal");
+
 
 for (let i = 0; i < imagesAsObjects.length; i++) {
     acumuladoraCards += `<div class="card">
     <img src=${imagesAsObjects[i].img} alt=${imagesAsObjects[i].title}>
   <div class="desc">${imagesAsObjects[i].title}</div>
   </div>`;
+
+
 }
+
+const containerHtml = document.getElementById("container");
 
 containerHtml.innerHTML = acumuladoraCards;
-contenedorModal.innerHTML = `
-<div id="myModal" class="modal nomostrar">
-  <div class="modalcontent">
-  </div>
-  <div><button id="cerrarModal">Cerrar Modal</button></div>
-</div>`;
 
-const botonCerrarModal = document.getElementById("cerrarModal");
-botonCerrarModal.onclick = () => {
-    modal.classList.add("nomostrar");
-}
 
 const modal = document.getElementById("myModal");
-const modalContent = document.getElementsByClassName("modalcontent");
 
-for (let x = 0; x < imagesAsObjects.length; x++) {
-    imgAbrirModal[x].onclick = (e) => {
+const botonAbrirModal = document.getElementsByTagName("img");
+const modalcontenido = document.querySelector(".modalcontent")
 
-        modalContent[0].innerHTML = `<img src="${imagesAsObjects[x].img}" alt="${imgAbrirModal[x].title}">
-        <span>${imagesAsObjects[x].title}</span>
-        `;
-        modal.classList.remove("nomostrar");
+
+
+for (let i = 0; i < botonAbrirModal.length; i++) {
+    botonAbrirModal[i].onclick = () => {
+        console.log(`Cualquier cosa`)
+        modal.classList.remove("nomostrar")
+
+        modalcontenido.innerHTML = `
+        <img src=${imagesAsObjects[i].img} alt=${imagesAsObjects[i].title}>
+        <div class="desc">${imagesAsObjects[i].title}</div>
+        `
     }
-}
 
+}
+const botonCerrarModal = document.getElementById("cerrarModal")
+
+
+botonCerrarModal.onclick = () => {
+    console.log(`Aprete boton`)
+    modal.classList.add("nomostrar")
+}
