@@ -4,4 +4,6 @@
 - **Objetivo de la clase:** Javascript.
 - **Resumen de la clase:**
 
-  > https://github.com/malerey/Metodos-de-array-ejercicios/blob/master/README.md
+  > Metodos de array. Repaso de filter. Reduce.
+
+https://github.com/malerey/Metodos-de-array-ejercicios
