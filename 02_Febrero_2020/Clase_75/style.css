@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Arvo", serif;
+  margin: 0;
+}
+
+.list__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.list__body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  min-width: 700px;
+}
+
+.list__body td,
+.list__body th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.list__body tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.list__body tr:hover {
+  background-color: #ddd;
+}
+
+.list__body i {
+  margin-right: 20px;
+}
+
+.list__body--actions {
+  padding: 0 20px;
+}
+/*# sourceMappingURL=style.css.map */
