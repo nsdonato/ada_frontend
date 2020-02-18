@@ -1,3 +1,18 @@
-const fecha = new Date()
 
-console.log(fecha);
+
+Obtenemos la fecha y hora actual:
+    const fecha = new Date()
+    console.log(fecha);
+    NOTA: new Date() -> fecha actual de mi pc (el navegador se fija la fecha en tu pc)
+
+Construimos un objeto fecha:
+    const fecha2 = new Date(2018,6,25,3,16) 25/6/2019 15:16
+    console.log(fecha2);
+
+    const fecha3 = new Date(99,6,25,3,16) // pone 1999
+    const fecha3 = new Date(20,6,25,3,16) // pone 1920
+
+    Después de los 2000, si o si hay que poner 2020.
+        const fecha3 = new Date(2020,6,25,3,16)
+        console.log(fecha3);
+

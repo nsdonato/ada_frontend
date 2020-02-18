@@ -1,4 +1,4 @@
-const form = document.forms[0];
+/*const form = document.forms[0];
 const tarjeta = document.querySelector(".card");
 const forecast = document.getElementById("forecast");
 const tarj3horas = document.querySelector(".tresHoras");
@@ -62,4 +62,9 @@ form.onsubmit = (e) => {
     tarjeta.classList.add('nomostrar');
     forecast.classList.add('nomostrar');
   }
+}*/
+
+const input = document.getElementById("ciudad");
+input.onkeyup = (event) => {
+  console.log(typeof event.target.value)
 }
