@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>API clima múltiples tarjetas - Clase 75</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <div class="row">
+            <input
+              id="ciudad"
+              class="form-control col-7"
+              placeholder="Por favor, ingresa una ciudad"
+              type="text"
+            />
+            <button type="submit" class="btn btn-primary col-2" value="buscar">
+              Buscar
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <div id="tarjeta" class="tarjeta text-center nomostrar card"></div>
+      <div id="forecast" class="forecast nomostrar">
+        <h1>Pronóstico extendido</h1>
+        <div class="tresHoras"></div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

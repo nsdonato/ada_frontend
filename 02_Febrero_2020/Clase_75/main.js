@@ -2,20 +2,31 @@
 Ejercicio 2
 En el HTML y CSS tienen una tabla ya maquetada.
 Deben crearla con JS, luego de hacer un fetch para obtener la lista de usuarios, y completarla con los datos que reciban.
+
+Tema nuevo: fetch dentro de otro.
+
+fetch(url)
+.then(response => res.json())
+.then(datosClimaActual => {
+  fetch(url)
+ .then(response => res.json())
+ .then(response => {
+  });
+})
 */
 const tableBody = document.getElementsByTagName('tbody');
 
 fetch(`https://meli-nnaykhkakj.now.sh/user/list`, {
-    method: 'GET',
+  method: 'GET',
 })
-    .then(data => data.json())
-    .then(result => {
-        console.log(result)
+  .then(data => data.json())
+  .then(result => {
+    console.log(result)
 
-        let acumuladora = "";
+    let acumuladora = "";
 
-        result.users.forEach(element => {
-            acumuladora += `<tr>
+    result.users.forEach(element => {
+      acumuladora += `<tr>
               <td>${element.name}</td>
               <td>${element.lastname}</td>
               <td>${element.phone}</td>
@@ -25,8 +36,8 @@ fetch(`https://meli-nnaykhkakj.now.sh/user/list`, {
                 <i class="fa fa-trash"></i>
               </td>
             </tr>`
-        });
+    });
 
-        tableBody[0].innerHTML = acumuladora;
-    })
+    tableBody[0].innerHTML = acumuladora;
+  })
 

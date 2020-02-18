@@ -1,0 +1,99 @@
+.tarjeta {
+  width: 500px;
+  height: auto;
+  margin: 3% 35%;
+  box-shadow: 0 19px 38px rgba(7, 66, 100, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: rgb(51, 49, 49);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.izq {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.icono {
+  width: 90px;
+  height: auto;
+}
+
+.img1 {
+  width: 100%;
+  height: auto;
+}
+
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grados {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.span1 {
+  font-size: 25px;
+}
+
+.viento {
+  padding-bottom: 8%;
+}
+
+.tresHoras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cadaTarjeta {
+  width: 22%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: 0 19px 38px rgba(7, 66, 100, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  padding: 15px;
+}
+
+.temperatura {
+  display: flex;
+}
+
+.icono3 {
+  width: 70px;
+  height: auto;
+}
+
+.img3 {
+  width: 100%;
+  height: auto;
+}
+
+.grados3 {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.span3 {
+  font-size: 18px;
+}
+
+.nomostrar {
+  display: none;
+}
+
+.container {
+  margin-top: 5%;
+}
