@@ -1,6 +1,5 @@
 *********** Selectores:
 
-
 - Tanto la clase1 como la clase2 van a tener cierta propiedad.
     .clase1, .clase 2 { prop: valor } 
 
@@ -65,3 +64,8 @@ Es una buena práctica definir todas las secciones de una tabla
 Esto ayuda a los lectores de pantalla
 
 Mas info sobre tablas: https://github.com/nsdonato/bootcamp-frontend/blob/master/02_html-css/contenido/04_tablas.md
+
+POSITION:
+	por defecto los elementos se posicionan (position) de manera estatica (static),
+	por lo que si le pones x ej left: 200px, no se mueve, en cambio si le pones
+	position: relative y left: 200px, se mueve.
