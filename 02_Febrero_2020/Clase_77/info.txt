@@ -1,0 +1,3 @@
+https://github.com/Ada-IT/bootcamp-frontend/tree/master/03_javascript/es6/spreadOperator
+
+https://github.com/Ada-IT/bootcamp-frontend/tree/master/03_javascript/es6/destructuring

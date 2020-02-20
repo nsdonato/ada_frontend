@@ -7,7 +7,67 @@ sass, es css con un agregado.
         Es un gestor de paquetes.
         Los paquetes son código que hacen otros desarrolladores y npm nos permite conectar con eso.
         > npm install -g node-sass
+        Para verificar una vez que termine, podes escribir en la consola: node-sass -v (para ver la versión)
     
+    En codepen hay que usar Ver sass sin compilar, y después ver css y se ve todo suplantado.
+	
+	crear una variable en sass:
+		- Que el nombre describa el nombre de la función de la "cosa", onda $brand_mark
+		- Se puede combinar con css, onda transform: $zaraza ease;
+		$zaraza: all 1s;
+		- Se puede meter mas de una propiedad dentro de una variable, onda transform: $zaraza
+		- No se pueden usar espacios en el nombre de la variable, ñ tildes corchetes. (ver bien que onda igual)
+		- Las variables pueden contener cualquier cosa, o sea valores que podrían tener las propiedades.
+		- Arrancan con $
+		- No acepta caracteres especificos, ej ñ.
+		- Las variables idealmente van arriba del css.
+		- Las variables tienen que ser declaradas antes de ser utilizadas. -> Css se lee de arriba para abajo, por eso, hay que hacer eso.
+		$color: #ff0000;
+		
+	El link en el html va con .css 
+			
+		
+		
+	node-sass: va a compilar el archivo scss, y se lo va a dar a mi navegador.
+		Para compilar: 
+			- Obvio que hay que poner el nombre del archivo scss que creaste.
+			> node-sass style.scss c:/Ada/Clase_20/css/style.css (porque se me calentó ponerlo adentro de una carpeta al compilado)
+	
+	sass: no tiene llaves y demas, pero como traia muchos problemas a los que recién arrancaban, se creo scss.
+		div
+			color: red
+	scss: tiene una sintaxis mas parecida a css, sigue siendo sass, pero bueno.
+	
+	
+	Para automatizar esto:
+		> node-sass -w style.scss style.css (-w es de watch)
+		> 
+		
+	anidación de cosas, ej:
+		ul {
+		 bgc: pink;
+		}
+		
+		li {
+		 list-style: none;
+		}
+		
+		a {
+		color: red;
+		}
+		
+	----por:-------------------------------------------------------------------------
+		
+		ul {
+			bgc: ping;
+			li {
+				list-style: none;
+				a {
+					color: red;
+				}
+			}
+		}
+        
     Sass:
         $variable: valor del atributo.
         $primary_color: red;
