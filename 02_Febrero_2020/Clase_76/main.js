@@ -1,5 +1,5 @@
-/*const form = document.forms[0];
-const tarjeta = document.querySelector(".card");
+const form = document.forms[0];
+const tarjeta = document.getElementById("tarjeta");
 const forecast = document.getElementById("forecast");
 const tarj3horas = document.querySelector(".tresHoras");
 
@@ -58,13 +58,13 @@ form.onsubmit = (e) => {
           })
       })
   } else {
-    alert("Por favor ingresa una ciudad")
+    alert("Por favor ingresa una ciudad");
     tarjeta.classList.add('nomostrar');
     forecast.classList.add('nomostrar');
   }
-}*/
-
-const input = document.getElementById("ciudad");
-input.onkeyup = (event) => {
-  console.log(typeof event.target.value)
 }
+
+// const input = document.getElementById("ciudad");
+// input.onkeyup = (event) => {
+//   console.log(typeof event.target.value)
+// }
