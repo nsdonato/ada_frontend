@@ -62,3 +62,53 @@ const misDatos = () => {
 misDatos();
 console.log("-----------------------------------------------------------------");
 */
+
+const numeros = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34];
+let acumuladora = 0;
+let anterior = 0;
+let total = 0;
+debugger
+const fibonacci = (num) => {
+	if(num <= 34) {
+		anterior = num;
+		acumuladora = 1 + num;
+		if(acumuladora === 0 || acumuladora === 1){
+			console.log(num);
+				fibonacci(1);
+		} else {
+			for (let index = num; index < 10; index++) {
+				anterior = index;
+				fibonacci(total);
+				// acumuladora = index;
+				// total = index + acumuladora;
+				// console.log(total)
+			}
+		}
+	}
+}
+
+fibonacci(0);
+console.log(fibo)
+/*
+0 -> muestro 0
+anterior = 0
+sumo = 0 + 1 = 1 -> muestro 1
+1
+anterior = suma (1);
+sumo = 1 + 1 = 2;
+2
+anterior = 2
+sumo = 1 + 2
+
+
+0 1 1 2 3 5 8 13 21
+
+0
+1+0=1
+1+1=2
+2+1=3
+3+2=5
+5+3=8
+8+5=13
+
+*/

@@ -1,0 +1,8 @@
+App -> donde comienzan todos los componentes de react.
+Componente -> es un pedacito de HTML que se puede reutilizar en varios lugares, utiilzando su propiedad props, por la que recibe paramtros.
+Los componentes son una función, su nombre debe comenzar con mayuscula.
+Podríamos hacer un componente de una sola linea, sin return y llaves, pero es raro.
+JSX es el html que forma parte del componente, por ende se puede usar javascript, pero solo dentro de llaves y solo expresiones
+
+Cuando te descargas un proyecto de react de otra persona, una vez que te lo descargas y dentro de la carpeta que se crea y hay un package.json tenemos que por consola instalar los paquetes necesarios de react:
+> npm install
