@@ -1,0 +1,15 @@
+tr {
+  height: 50px;
+}
+
+tr.border_bottom td {
+  border-bottom: 1pt solid #807b7b;
+}
+
+td.txt-center {
+  text-align: center;
+}
+
+th.txt-left {
+  text-align: left;
+}
