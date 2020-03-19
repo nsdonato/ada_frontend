@@ -1,0 +1,19 @@
+1) React Fragment, sirve para poner mas de un elemento consecutivo. Ya que en React solo puede haber un elemento padre.
+Ej:
+Sin Fragment, esto da error:
+    return (
+        <div></div>
+        <span></span>
+    )
+
+Con Fragment:
+    return (
+        <>
+            <div></div>
+            <span></span>
+        </>
+    )
+
+2) nombre de clases dentro de una variable y utilización en el html:
+const classDisabled = 'disabled'; -> esta clase se supone que la tenemos en el css.
+<div className={classDisabled}></div>
