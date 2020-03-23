@@ -1,18 +1,46 @@
 
+Maneras de autenticarse con api de terceros:
+    apikey -> te logueas en la pagina y te dan una key que tenes que agregar a la url.
+    oauth -> envias un client id y te retorna un token.
 
-Obtenemos la fecha y hora actual:
-    const fecha = new Date()
-    console.log(fecha);
-    NOTA: new Date() -> fecha actual de mi pc (el navegador se fija la fecha en tu pc)
+Date:
+    Estandar: Se utilizan milisegundos para calcular la fecha. 01/01/1970
+    Date() -> Te da la fecha exacta de hoy, esto lo hace el navegador, que se fija la hora de mi sistema operativo y lo convierte a lo que corresponda.
+    El mes es uno menos, arranca en 0 porque es un array
 
-Construimos un objeto fecha:
-    const fecha2 = new Date(2018,6,25,3,16) 25/6/2019 15:16
-    console.log(fecha2);
+    Obtenemos la fecha y hora actual:
+        const fecha = new Date()
+        console.log(fecha);
+        NOTA: new Date() -> fecha actual de mi pc (el navegador se fija la fecha en tu pc)
 
-    const fecha3 = new Date(99,6,25,3,16) // pone 1999
-    const fecha3 = new Date(20,6,25,3,16) // pone 1920
+    Construimos un objeto fecha en especifico:
+        const fecha4 = new Date(-1000) -> muestra 1969
+        const fecha3 = new Date(fechaEnMillisegundos) si es en segundos, hay que hacer x 1000
+        const fecha2 = new Date(2018,6,25,3,16) 25/6/2019 15:16
+        console.log(fecha2);
 
-    Después de los 2000, si o si hay que poner 2020.
-        const fecha3 = new Date(2020,6,25,3,16)
-        console.log(fecha3);
+        const fecha3 = new Date(99,6,25,3,16) // pone 1999
+        const fecha3 = new Date(20,6,25,3,16) // pone 1920
+
+        Después de los 2000, si o si hay que poner 2020.
+            const fecha3 = new Date(2020,6,25,3,16)
+            console.log(fecha3);
+
+        OpenWheatherAPI usa el formato fecha en segundos, hay que multiplicar por mil y ya esta.
+
+        metodos:
+            new Date(unaFecha).getDay() -> nro de cada dia
+            new Date(unaFecha).getDate() -> nro de semana
+            getYear() -> funciona de manera inconsistente.
+            getFullYear()
+            toLocaleString() -> fecha y hora
+            toLocaleDateString() -> solo fecha
+            toLocaleTimeString() -> solo hora
+
+            const fecha3 = new Date();
+            fecha3.setDate(18)
+            fecha3.setMonth(9) -> octubre
+            fecha3.setMinutes(39)
+            fecha3.setSeconds(23)
+
 
