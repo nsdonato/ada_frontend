@@ -1,0 +1,33 @@
+npm install node-sass
+    CSS in JS
+    Nuestros componentes tengan el css metido ahí y que no lleguen a tocar a otros elementos.
+    Simplemente hay que cambiarle la extensión, actualizar el import y escribir en modo scss
+    El css es bloqueando, por ende la página espera hasta que se cargue el css para seguir mostrando la información.
+    No vamos a tener problemas de que dos css tengan lo mismo
+
+npm install styled-components
+    Se puede anidar el css dentro del componente.
+    El js a veces se torna un poco largo.
+    Le podemos pasar props a los styled componentes, coo cualquier otra prop digamos.
+    A la variable que debería ser "props", le podemos poner cualquier nombre, siempre se va a referir a la prop que se le pase al componente.
+        Se suele usar prop, ya que las props son las pasadas al componente real, no al estilado.
+
+    import styled from 'styled-components'
+    const ButtonComp = styled.button`
+        background: none;
+        color: #fff;
+        background-color: {prop => prop.hayEmergenciaAdopteril === true ? 'red' : 'green'};
+    `;
+
+const Button = ({mensaje, estilo}) => {
+    return (
+        <ButtonComp hayEmergenciaAdopteril={true} className={estilo}>{mensaje}</ButtonComp>
+    )
+};
+
+export default Button;
+
+Ejercicio:
+    Agarrar el estilo que tenemos en sass en el componente card y convertirlo a un styled component
+    Hay que darle el estilo a la tarjeta de acuerdo si el gasto esta para ser adoptado o no
+    https://github.com/malerey/clase7
