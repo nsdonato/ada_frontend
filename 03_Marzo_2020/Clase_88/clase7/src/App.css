@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.footer {
+  padding: 2em 0;
+  background: #fed201;  
+  color: #000;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.footer_icons i {
+  font-size: 20px;
+  margin: 5px 10px;
+}
+
+.footer p {
+  text-align: center;
+  letter-spacing: 2px;
+}

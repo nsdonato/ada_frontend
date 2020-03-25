@@ -1,7 +1,7 @@
 # Clase: 82
 
 - **Fecha:** 04/03/2020
-- **Objetivo de la clase:** Javascript.
+- **Objetivo de la clase:** React.
 - **Resumen de la clase:**
 
   > "Introduccion a React. Instalando create-react-app y creando un proyecto nuevo. Estructura basica de un proyecto de React. Componentes de React como funciones. JSX: mezclando HTML y Javascript. Creando nuevos componentes. Agregando ""props"".
