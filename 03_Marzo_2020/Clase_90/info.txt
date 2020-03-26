@@ -1,0 +1,7 @@
+- Por convención a las funciones manejadoras de eventos le ponemos handleAlgo
+- Si queremos pasarle parametros, al evento onClick le pasamos una función anonima que ejecuta otra función, por ende recién esta se va a ejecutar recién cuando se haga clic, sino se llamaría en el momento que se carga la página.
+    onClick={() => handleClik("Esto es un parametro")}
+- Una serie de funciones que controlan el estado de nuestra aplicación.
+    Declaración de estado para la variable número. Puedo tener tanto como quieras.
+        const [numero, setNumero] = useState(valorPorDefault)
+- No se puede usar numero++ porque ++ modifica en el momento el valor de la variable, no se puede hacer eso en react.
