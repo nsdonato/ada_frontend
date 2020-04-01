@@ -4,6 +4,6 @@
 - **Objetivo de la clase:** React.
 - **Resumen de la clase:**
 
-  > Clase practica. Repaso general de React + Styled Components
+  > "Clase practica. Repaso general de React + Styled Components
 
-Tarea: https://github.com/malerey/Clase-8-React/blob/master/README.md
+Tarea: https://github.com/malerey/Clase-8-React/blob/master/README.md"
