@@ -1,0 +1,29 @@
+1) npm install react-router-dom
+
+- los links <a> en react no sirven porque se refresca toda la pagina y se vuelve al estado inicial
+- solo usamos los links para navegar a otras paginas web, en nuestras paginas usamos react-router-dom.
+- para emular el comportamiento de ruteo, tenemos que importar react-router-dom:
+	import { BrowserRouter as Router, Route } from 'react-router-dom'
+
+1) Importamos el componente principal: En App, rodeo todos mis componentes con <Router></Router>
+2) Importamos el componente Route
+    <Route path="/" render={() => <h1>Bienvenido</h1>} </Route>
+    <Route path="/contacto" render={() => <h1>Contacto</h1>} </Route>
+    Al dejarlo así motraria Bienvenido y contacto.
+    Para que solo muestre la ruta que corresponde enemos que agregar la propiedad exact.
+
+    <Route exact path="/contacto" render={() => <h1>Contacto</h1>} </Route>
+
+    No utilizamos el renderizado de esta manera y aque sino deberiamos poner el html de cada pagina todo en app, para eso utilizamos la propiedad component.
+
+    import Home from './components/Home';
+    <Route path="/contacto" component={</Home>} </Route>
+
+3) En vez de los <a> usamos <Link to ="/"> PARA NAVEGACIÓN INTERNA
+4) <Switch> -> no anote nada
+5) para pasar un parametro por ruta hacemos /:algo va a un componente determinado.
+6) para obtener ese parametro en otro componente props.match.params.nombreParametro
+    useHistory()
+    useParams().parametro
+    y no necesitamos usar las props.
+

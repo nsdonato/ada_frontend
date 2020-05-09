@@ -1,0 +1,2 @@
+select y textarea tienen propiedad value en react.
+multiples estados se pueden simplificar en 1 mediante un objeto.o

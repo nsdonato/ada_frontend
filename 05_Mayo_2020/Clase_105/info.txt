@@ -1,0 +1,73 @@
+Custom Hooks:
+
+Reglas:
+1) No podemos ejecutar un hook en el return. solo se pueden llamar en el cuerpo de un componente de una función.
+2) el nombre de la función debe comenzar con use ej: useFetch
+
+useFetch.js
+    import React, { useEffect, useState } from 'react';
+
+    const useFetch = (cosaABuscar) => {
+    const [data, setData] = useState([])
+
+    useEffect(() => {
+        fetch(cosaABuscar)
+        .then(res => res.json())
+        .then(data => setData(data.results))
+    }, [])
+
+    return data
+    };
+
+    export default useFetch;
+
+El custom hook lo que hace es retornar un array, que tiene 2 parametros, el valor de mi estado y la función que actualiza el estado, como cuando lo utilizamos:
+    const [infoHook, setInfoHook] = useState(initialState)
+
+useForm.js
+    import React, { useState, useEffect } from 'react';
+    const useForm = (initialState) => {
+    const [infoHook, setInfoHook] = useState(initialState)
+
+        return [
+        infoHook,
+        e => {
+            setInfoHook({
+            ...infoHook,
+            [e.target.name]: e.target.value
+            })
+        }
+        ]
+    };
+
+    export default useForm;
+
+App.js
+    import React, { useState, useEffect } from 'react';
+    import './App.css';
+    import Ubicaciones from './components/Ubicaciones';
+    import useForm from './hooks/useForm';
+
+    const App = () => {
+        const [info, setInfo] = useForm({
+            nombre: '',
+            telefono: '',
+            zona: '',
+        });
+
+        return (
+            <div className="App">
+                <form>
+                    Nombre: <input type="text" name="nombre" onChange={setInfo}></input>
+                    Telefono
+                    <input type="number" name="telefono" onChange={setInfo} ></input>
+                    Lugar donde su gato le pide caricias
+                    <input type="text" name="zona" onChange={setInfo} ></input>
+                </form>
+                <hr />
+                <Ubicaciones />
+            </div>
+        );
+    };
+
+    export default App;
