@@ -1,0 +1,34 @@
+Context: estado global.
+
+Proveedor: componente que pasa información a todos sus hijos sin decirlo explicitamente
+    import React from 'react';
+
+    const estilosUsuarioLogueado = {
+    titles: 'red',
+    background: 'blue',
+    };
+
+    const ThemeContext = React.createContext(estilosUsuarioLogueado);
+
+    export default ThemeContext
+
+    <NombreContexto.Provider value="">
+
+Consumidor:
+    En el componente que necesitemos la info que esta el proveedor
+    import React, { useContext } from 'react';
+    import ThemeContext from '../context/ThemeContext';
+
+    const EnvioGratis = ({ data }) => {
+    const contexto = useContext(ThemeContext);
+    console.log(contexto.translations.button("Hola Nil"))
+    return (
+        <></>
+        // <div style={{backgroundColor: contexto.background}}>
+        //   <p style={{color: contexto.titles}}>{data.gratis ? 'Gratis' : 'No gratis'}</p>
+        // </div>
+    );
+    };
+
+    export default EnvioGratis;
+

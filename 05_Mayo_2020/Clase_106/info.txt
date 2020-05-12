@@ -1,0 +1,41 @@
+Reducer:
+    - Tiene que ser una función pura, no puede modificar información fuera de si misma.
+    - Es una función que recibe 2 parametros, un valor inicial y una acción y retorna el resultado.
+
+    Acción: va a ser un objeto
+            escribirla en mayuscula.
+            debe tener la propiedad type, donde vamos a poner que queremos que haga nuestro código.
+            Habitualmente acción tiene un payload, donde enviamos información extra para alguna acción determinada
+                podemos no usarlo ya que no siempre necesitamos enviar información.
+
+useReducer:
+    si estamos usando un reducer y un estado en el mismo lugar, algo estamos haciendo mal, ya que reducer lo reemplaza.
+    recibe lo que tiene que cambiar y el estado inicial y nos devuelve el estado actualizado y un dispatch.
+
+    Le tenemos que pasar un reducer y el estado inicial, los que nos va a devolver es información y un dispatch.
+        const [tareasModificadas, dispatch] = useReducer(tareasReducer, tareas)
+
+    Para utilizar el reducer usamos el dispatch:
+        const handleChange = (idParams) => {
+            const accion = {
+            type: "MARCAR_COMPLETADA",
+                payload: {
+                    id: idParams
+                }
+            }
+
+            dispatch(accion)
+        };
+
+        const tareasReducer = (tareas, accion) => {
+            if (accion.type === "MARCAR_COMPLETADA") {
+                return tareas.map((tarea) => {
+                if (tarea.id === accion.payload.id) {
+                    return {...tarea, completada: !tarea.completada}
+                }
+                else {
+                    return tarea;
+                }
+                })
+            } else return tareas }
+        }
