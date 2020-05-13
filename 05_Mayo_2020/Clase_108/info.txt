@@ -26,4 +26,6 @@ Ciclo de vida de un componente "mounting":
 4) ComponentDidMount() -> ya esta todo listo en el dom, ya podemos empezar a hacer cosas.
 
 unmounting:
-ComponentWillUnmount(); -> inmediatamente antes de sacar alcomponente del dom.
+    ComponentWillUnmount(); -> inmediatamente antes de sacar alcomponente del dom.
+
+    // TODO: terminar de ver
